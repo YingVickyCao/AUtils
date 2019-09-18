@@ -1,4 +1,4 @@
-package com.yingvickycao.test;
+package com.yingvickycao.autils.test;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.yingvickycao.autils", appContext.getPackageName());
+        assertEquals("com.yingvickycao.autils.test", appContext.getPackageName());
     }
 }

@@ -4,10 +4,10 @@ import android.content.Context;
 import android.graphics.Bitmap;
 import android.util.Log;
 
-import com.hades.example.android.lib.BuildConfig;
-import com.hades.example.android.lib.utils.FileUtil;
-import com.hades.example.android.lib.utils.bitmap.cache.disk.DiskCache;
-import com.hades.example.android.lib.utils.bitmap.cache.mememory.MemoryCache;
+import com.yingvickycao.autils.BuildConfig;
+import com.yingvickycao.autils.utils.FileUtil;
+import com.yingvickycao.autils.utils.bitmap.cache.disk.DiskCache;
+import com.yingvickycao.autils.utils.bitmap.cache.mememory.MemoryCache;
 
 import java.io.File;
 

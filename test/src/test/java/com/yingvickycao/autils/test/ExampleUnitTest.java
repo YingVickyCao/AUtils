@@ -1,4 +1,4 @@
-package com.yingvickycao.test;
+package com.yingvickycao.autils.test;
 
 import org.junit.Test;
 

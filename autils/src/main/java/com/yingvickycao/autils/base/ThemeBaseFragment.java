@@ -2,8 +2,8 @@ package com.yingvickycao.autils.base;
 
 import android.app.TaskStackBuilder;
 
-import com.hades.example.android.lib.R;
-import com.hades.example.android.lib.mock.SFMock;
+import com.yingvickycao.autils.R;
+import com.yingvickycao.autils.mock.SFMock;
 
 public class ThemeBaseFragment extends BaseFragment {
 
