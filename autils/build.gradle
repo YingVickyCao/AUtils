@@ -1,4 +1,15 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
+
+publish {
+//    userOrg = "$userOrg"
+    userOrg = "yingvickycao"
+    groupId = 'com.yingvickycao'
+    artifactId = 'autils'
+    publishVersion = '0.0.1'
+    desc = 'android common util'
+    website = 'https://github.com/YingVickyCao/AUtils'
+}
 
 android {
     compileSdkVersion 29
