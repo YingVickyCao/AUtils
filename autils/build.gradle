@@ -2,7 +2,6 @@ apply plugin: 'com.android.library'
 apply plugin: 'com.novoda.bintray-release'
 
 publish {
-//    userOrg = "$userOrg"
     userOrg = "yingvickycao"
     groupId = 'com.yingvickycao'
     artifactId = 'autils'
