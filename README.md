@@ -1,4 +1,4 @@
-## Welcome to Atom Github Pages
+## Welcome to AUtils Github Pages
 
 [Editor on GitHub](https://github.com/YingVickyCao/AUtils/edit/master/README.md)
 
