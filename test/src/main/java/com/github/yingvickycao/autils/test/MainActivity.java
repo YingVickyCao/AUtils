@@ -2,9 +2,10 @@ package com.github.yingvickycao.autils.test;
 
 import android.os.Bundle;
 
-import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity {
+import com.github.yingvickycao.autils.base.BaseActivity;
+
+public class MainActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
