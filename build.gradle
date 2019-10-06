@@ -8,8 +8,8 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.5.0'
-
-        classpath 'com.novoda:bintray-release:0.9.1'
+        classpath 'com.github.dcendents:android-maven-plugin:1.2'
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.8.4'
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
@@ -44,4 +44,41 @@ allprojects {
 
 task clean(type: Delete) {
     delete rootProject.buildDir
+}
+
+ext {
+    COMPILE_SDK = 29
+    BUILD_TOOLS = '29.0.2'
+    MODULE_NAME = 'autils'
+
+    REPO_NAME ='Autils'
+    NAME = 'autils'
+
+    USER_ORG="yingvickycao"
+
+    GROUP_NAME = 'com.github.yingvickycao'
+    ARTIFACT_ID = 'autils'
+    VERSION_NAME = '0.0.1-beta-1'
+    VERSION_CODE = 1
+
+    DESCRIPTION = 'android common util'
+
+    SITE_URL = 'https://yingvickycao.github.io/AUtils'
+    GIT_URL = 'https://github.com/YingVickyCao/AUtils.git'
+    GIT_SCRUM_URL = 'https://github.com/YingVickyCao/AUtils/tree/master'
+    ISSUE_TRACKER_URL = 'https://github.com/YingVickyCao/AUtils/issues'
+
+    LICENSE = 'The Apache Software License, Version 2.0'
+    LICENSE_URL = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    LICENSE_distribution = 'repo'
+
+    DEVELOPER_ID = 'yingvickycao'
+    DEVELOPER_NAME = 'Ying Vicky Cao'
+    DEVELOPER_EMAIL = 'ying.vicky.cao@outlook.com'
+
+    SCM_CONNECTION = 'scm:git:git://github.com/YingVickyCao/AUtils.git'
+    SCM_DEVELOPER_CONNECTION = 'scm:git:ssh://github.com:YingVickyCao/AUtils.git'
+    SCM_URL = 'http://github.com/YingVickyCao/AUtils/tree/master'
+
+    IS_UPLOADING = project.getGradle().startParameter.taskNames.any{it.contains('bintrayUpload')}
 }
