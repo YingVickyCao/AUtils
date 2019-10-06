@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.yingvickycao</groupId>
+  <artifactId>autils</artifactId>
+  <version>0.0.1-beta-1</version>
+  <packaging>aar</packaging>
+  <description>android common util</description>
+  <name>publishing</name>
+  <url>https://yingvickycao.github.io/AUtils</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>yingvickycao</id>
+      <name>Ying Vicky Cao</name>
+      <email>ying.vicky.cao@outlook.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://yingvickycao.github.io/AUtils</url>
+    <connection>scm:git:git://github.com/YingVickyCao/AUtils.git</connection>
+    <developerConnection>scm:git:ssh://github.com:YingVickyCao/AUtils.git</developerConnection>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.tbruyelle.rxpermissions2</groupId>
+      <artifactId>rxpermissions</artifactId>
+      <version>0.9.4</version>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex.rxjava2</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>2.1.1</version>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex.rxjava2</groupId>
+      <artifactId>rxandroid</artifactId>
+      <version>2.1.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+  </dependencies>
+</project>
