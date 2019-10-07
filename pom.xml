@@ -23,8 +23,8 @@
     </developer>
   </developers>
   <scm>
-    <url>https://yingvickycao.github.io/AUtils</url>
-    <connection>scm:git:git://github.com/YingVickyCao/AUtils.git</connection>
+    <url>https://github.com/YingVickyCao/AUtils/tree/master</url>
+    <connection>scm:git:ssh://github.com:YingVickyCao/AUtils.git</connection>
     <developerConnection>scm:git:ssh://github.com:YingVickyCao/AUtils.git</developerConnection>
   </scm>
   <dependencies>
