@@ -2,10 +2,11 @@
 
 [Editor on GitHub](https://github.com/YingVickyCao/AUtils/edit/master/README.md)
 
-### What is AUtils
+# 1 Push lib to Local Maven
 
-Android common utils
+etc. push module A to Local Maven
 
-<!-- ### Support or Contact -->
-
-<!-- Having trouble with AUtils? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out. -->
+```
+# plugin = maven
+./gradlew :A:uploadArchives
+```
