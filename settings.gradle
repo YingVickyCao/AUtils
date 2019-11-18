@@ -1,2 +1,2 @@
-include  ':test',':autils'
+include  ':test',':autils', ':A', ':B'
 rootProject.name='AUtils'
